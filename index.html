@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <title>নুরুল ইসলাম ফুটবল একাডেমি</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>নুরুল ইসলাম ফুটবল একাডেমি</h1>
+    <p class="location">
+      📍 কালিকাপুর, বাঞ্ছারামপুর, বি-বাড়িয়া
+    </p>
+
+    <h2>Player Registration Form</h2>
+
+    <form id="registrationForm">
+      <input type="text" placeholder="Player Name" required>
+      <input type="number" placeholder="Age" required>
+      <input type="date" required>
+
+      <select required>
+        <option value="">Select Position</option>
+        <option>Goalkeeper (GK)</option>
+        <option>Defender (DF)</option>
+        <option>Midfielder (MF)</option>
+        <option>Forward (FW)</option>
+      </select>
+
+      <input type="text" placeholder="Guardian Name" required>
+      <input type="tel" placeholder="Mobile Number" required>
+      <textarea placeholder="Address" required></textarea>
+      <input type="text" placeholder="Previous Club (Optional)">
+
+      <button type="submit">Register Now</button>
+    </form>
+
+    <p class="success" id="successMsg">
+      ✅ Registration Successful!
+    </p>
+  </div>
+
+<script src="script.js"></script>
+</body>
+</html>
